@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet_Zoro</title>
+    <link rel="stylesheet" href="/static/css/style1.css">
+</head>
+<body>
+    <!--HEADER -->
+    <header></header>
+    <section class="milieu">
+        <div class="zoro">
+            <h1>ZORO</h1>
+        </div>
+        <div class="formulaire">
+            <form action="{{url_for('page2')}}">
+                <h3>Connectez-vous</h3>
+                <input type="text" placeholder="identifiant">
+                <input type="password" placeholder="Mot de pass">
+                <div>
+                    <button type="submit">Connexion</button>
+                    <a href=""><h5>Si pas de compte inscrivez-vous</h5></a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>

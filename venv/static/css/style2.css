@@ -1,0 +1,369 @@
+
+/*PAGE2*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*PAGE3*/
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+
+.milieu {
+    width: 100%;
+    height: 700px;
+    /*background-color: grey;*/
+    /*display: flex;
+    flex-direction: column;
+    /*border: 1px solid red;*/
+}
+
+.milieu .zoro {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(79, 180, 234);
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.milieu .zoro h1{
+    padding: 10px;
+}
+
+
+.milieu .slide-bar {
+    width: 100%;
+    height: 90%;
+    /*border: 1px solid red;*/
+    display: flex;
+
+}
+
+.slide-bar .slide-g {
+    width: 20%;
+    height: 100%;
+    /*border: 1px solid violet;*/
+    background-color: rgb(79, 180, 234);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+}
+
+.slide-bar .slide-g button {
+    margin-top: 15px;
+    height: 35px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+}
+.slide-bar .slide-g .Mag {
+    background-color: rgb(179, 177, 177);
+    color: white;
+}
+
+.slide-bar .slide-g .Mag a{
+    text-decoration: none;
+    color: white;
+}
+.slide-bar .slide-g .deco a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.slide-bar .slide-d {
+    width: 90%;
+    height: 100%;
+    /*border: 1px solid teal;*/
+    background-color: rgb(219, 216, 216);
+}
+
+.slide-bar .slide-d {
+    width: 90%;
+    height: 100%;
+    border: 1px solid teal;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+
+.slide-bar .slide-d .ajouter {
+    width: 83%;
+    height: 10%;
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+    
+
+}
+
+.slide-bar .slide-d .ajouter button{
+    font-size: 18px;
+    width: 10%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    float: right;
+    border: 1px transparent;
+
+}
+
+.slide-bar .slide-d .ajouter button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.slide-bar .slide-d .tableau {
+    width: 70%;
+    height: 85%;
+    /*border: 1px solid red;*/
+    margin-left: 200px;
+
+}
+
+.slide-bar .slide-d .tableau caption {
+    text-align: start;
+    font-size: 30px;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.slide-bar .slide-d .tableau .activer {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+
+.slide-bar .slide-d .tableau .titre-action{
+    text-align: center;
+}
+
+.slide-bar .slide-d .tableau .activer .btn1{
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(255, 174, 0);
+    color: white;
+    margin-right: 15px;
+    border: 1px transparent;
+
+}
+
+.slide-bar .slide-d .tableau .activer .btn2{
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(255, 0, 0, 0.904);
+    color: white;
+    padding-right: 5px;
+    border: 1px transparent;
+}
+
+.slide-bar .slide-d .tableau .activer .btn1 a, .slide-bar .slide-d .tableau .activer .btn2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */ {
+    border: 1px solid white;
+    padding: 2px;
+    width: 180px;
+    font-weight: 600;
+}
+th{
+    background-color: rgb(79, 180, 234);
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+.un{
+    background-color: rgb(181, 217, 233);
+}
+.deux{
+    background-color: rgb(217, 231, 244);
+}
+
+/*PAGE4*/
+
+.slide-bar .slide-d .formulaire{
+    margin: 100px 50px 50px 80px ;
+    width: 70%;
+    height: 80%;
+    /*border: 1px solid rgb(225, 0, 255);*/
+}
+
+.slide-bar .slide-d .formulaire form {
+    display: grid;
+    grid-template-columns: 20% 60%;
+
+
+}
+
+form input {
+    width: 50%;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    
+}
+
+form label {
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    border: 1px black;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 330px;
+    
+    
+}
+
+
+.formulaire div button {
+    margin: 7px;
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: red;
+    float: right;
+    border: 1px transparent;
+}
+
+.formulaire div button a{
+text-decoration: none;
+color: white;
+}
+
+.formulaire div .red {
+    background-color: green;
+}
+
+/*PAGE5*/
+
+td, th /* Mettre une bordure sur les td ET les th */ {
+    border: 1px solid white;
+    padding: 2px;
+    width: 180px;
+    font-weight: 600;
+}
+th{
+    background-color: rgb(79, 180, 234);
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+.un{
+    background-color: rgb(181, 217, 233);
+}
+.deux{
+    background-color: rgb(217, 231, 244);
+}
+
+.New {
+    color: green;
+}
+
+.ok {
+    border: 2px solid skyblue;
+    width: 500px;
+    text-align: center;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(152, 204, 152);
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+
+.ok p{
+    margin-top: 10px;
+}
+
+
+/*PAGE6*/
+
+::-webkit-input-placeholder {
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#tele::-webkit-input-placeholder {
+    color: rgb(15, 192, 15);
+}
+
+
+/*PAGE8*/
+
+input.error::-webkit-input-placeholder {
+    font-size: 18px;
+    white-space: wrap;
+    font-weight: 600;
+}
+
+input.error {
+    width: 700px ;
+    height: 200px;
+    border-radius: 30px;
+    background-color: rgba(255, 228, 198, 0.822);
+    border: 2px solid skyblue;
+    
+
+} 
+
+
+.center-bouton {
+    margin-left: 400px;
+}
+
+.formulaire h3 {
+    margin-left: 100px;
+}
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /*border: 1px solid blue;*/
+}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+                <section class="formulaire">
+                    <h2><strong>Modifier un magasin</strong></h2>
+                    <form action="">
+                            <label for="Nom"> Nom : </label>
+                            <input name="text" id="Nom" placeholder="Magasin 5"/>
+                            <label for=""> Adress : </label>
+                            <input name="text" placeholder="Adresse 5"/>
+                            <label for=""> Telephone : </label>
+                            <input name="text" id="tele" placeholder="Téléphone M"/>
+                            <label for=""> E-mail : </label>
+                            <input name="text" placeholder="E-mail 5"/>
+                    </form>
+                        <div class="btn">
+                            <button><a href="{{url_for('page5')}}">Retour</a></button>
+                            <button class="red"><a href="{{url_for('page7')}}">Valider</a></button>
+                        </div>
+
+                </section>
+
+
+{% endblock  %}
