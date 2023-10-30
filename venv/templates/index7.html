@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+
+{% block content %}
+                <div class="ajouter">
+                    <button><a href="{{url_for('page4')}}">Ajouter</a></button>
+                </div>
+                <div class="tableau">
+                    <table>
+                        <div class="ok">
+                            <p>Le magasin numéro 5 a été modifié avec succès</p>
+                        </div>
+                       <tr>
+                        <th>id</th>
+                        <th>Nom</th>
+                        <th>Adresse</th>
+                        <th>Téléphone</th>
+                        <th>Mail</th>
+                        <th class="titre-action">Action</th>
+                       </tr>
+                       <tr class="un">
+                        <td>1</td>
+                        <td>Magasin1</td>
+                        <td>Adresse1</td>
+                        <td>Téléphone1</td>
+                        <td>Mail1</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+                       <tr class="deux">
+                        <td>2</td>
+                        <td>Magasin2</td>
+                        <td>Adresse2</td>
+                        <td>Téléphone2</td>
+                        <td>Mail2</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+                       <tr class="un">
+                        <td>3</td>
+                        <td>Magasin3</td>
+                        <td>Adresse3</td>
+                        <td>Téléphone3</td>
+                        <td>Mail3</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+                       <tr class="deux">
+                        <td>4</td>
+                        <td>Magasin4</td>
+                        <td>Adresse4</td>
+                        <td>Téléphone4</td>
+                        <td>Mail4</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+                       <tr class="un New">
+                        <td>5</td>
+                        <td>Magasin5</td>
+                        <td>Adresse5</td>
+                        <td>Téléphone M</td>
+                        <td>Mail5</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+                       <tr class="deux">
+                        <td>6</td>
+                        <td>Magasin6</td>
+                        <td>Adresse6</td>
+                        <td>Téléphone6</td>
+                        <td>Mail6</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+                       <tr class="un">
+                        <td>7</td>
+                        <td>Magasin7</td>
+                        <td>Adresse7</td>
+                        <td>Téléphone7</td>
+                        <td>Mail7</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+                       <tr>
+                        <td>8</td>
+                        <td>Nouveau</td>
+                        <td>Nouveau</td>
+                        <td>Nouveau</td>
+                        <td>Nouveau</td>
+                        <td class="activer">
+                            <button class="btn1"><a href="{{url_for('page6')}}">Modifier</a></button>
+                            <button class="btn2"><a href="{{url_for('page8')}}">Supprimer</a></button>
+                        </td>
+                       </tr>
+
+                    </table>
+                </div>
+
+{% endblock  %}

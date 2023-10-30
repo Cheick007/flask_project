@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+                <section class="formulaire">
+                    <h3><strong>Suppression de magasin</strong></h3>
+                    <form action="">
+                            <label class="mess" for="Nom" >  </label>
+                            <input  name="text" class="error" id="Nom" placeholder="Vous êtes sur le point de supprimer le magasin n°2.Êtes-vous sûr de vouloir continuer ?"/>
+                    </form>
+                        <div class="btn center-bouton">
+                            <button><a href="{{url_for('page5')}}">Retour</a></button>
+                            <button class="red"><a href="{{url_for('page9')}}">Confirmer</a></button>
+                        </div>
+
+                </section>
+
+{% endblock  %}

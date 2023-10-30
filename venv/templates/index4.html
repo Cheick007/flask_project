@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+                <section class="formulaire">
+                    <h2><strong>Ajouter un nouveau magasin</strong></h2>
+                    <form action="">
+                            <label for="Nom"> Nom : </label>
+                            <input name="text" id="Nom"/>
+                            <label for=""> Adress : </label>
+                            <input name="text"/>
+                            <label for=""> Telephone : </label>
+                            <input name="text"/>
+                            <label for=""> E-mail : </label>
+                            <input name="text"/>
+                    </form>
+                        <div class="btn">
+                            <button><a href="{{url_for('page3')}}">Retour</a></button>
+                            <button class="red"><a href="{{url_for('page5')}}">Valider</a></button>
+                        </div>
+
+                </section>
+
+{% endblock  %}

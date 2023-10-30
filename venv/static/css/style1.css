@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+   /* border: 1px solid black;*/
+}
+
+.milieu {
+    width: 100%;
+    height: 700px;
+    background-color: grey;
+    /*border: 1px solid red;*/
+}
+
+.zoro {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-color: rgb(79, 180, 234);
+}
+
+.zoro h1{
+    padding: 10px;
+}
+
+
+
+.formulaire {
+    width: 18%;
+    height: 45%;
+    text-align: center;
+    background-color: rgb(79, 180, 234);
+    margin-top: 180px;
+    margin-left: 40%;
+    border-radius: 50px;
+    display: flex;
+    
+
+}
+
+.formulaire form {
+    margin: 50px;
+}
+
+.formulaire form input{
+    margin: 20px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.formulaire form a{
+    color: bisque;
+}
+
+.formulaire form button{
+    height: 35px;
+    font-size: 18px;
+    width: 120px;
+    border-radius: 8px;
+    background-color: grey;
+    color: white;
+   
+}
+
+.formulaire form h5{
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+   /* border: 1px solid blue;*/
+}
